@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensures the elevator is centered vertically */
+    background-color: #e2d7ca;
+  }
+  
+  .elevator {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .floor {
+    align-items: center;
+    justify-content: center;
+    background-color: #b8a998; 
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+
+  .floor button {
+    font-size: 18px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #d9c8b5;
+    border: 1px solid #b8a998;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .floor button:hover {
+    background-color: #b8a998;
+  color: #ffffff; 
+  }
