@@ -3,6 +3,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column-reverse;
     height: 100vh; /* Ensures the elevator is centered vertically */
     background-color: #e2d7ca;
   }
